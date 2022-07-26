@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import "./App.scss";
+import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
@@ -9,7 +10,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -82,7 +82,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <NavBar 
+          id="navbar"  
+        />
+
+        <Header 
+          sharedData={this.state.sharedData.basic_info} id="home" 
+        />
 
         {/* The below section is hidden as language preferences are not required */}
         <div className="col-md-12 mx-auto text-center language" style={{ display: "none" }}>
@@ -123,24 +129,31 @@ class App extends Component {
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
+          id="about"
         />
 
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
+          id="projects"
         />
 
         <Skills
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
+          id="skills"
         />
 
         <Experience
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
+          id="experience"
         />
 
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        <Footer 
+          sharedBasicInfo={this.state.sharedData.basic_info} 
+          id="contact"
+        />
       </div>
     );
   }
