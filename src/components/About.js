@@ -30,18 +30,22 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
+
                   <Icon 
                     icon={reactIcon} 
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%", width: "40px", height: "40px" }}
                   />
+
                   <Icon 
                     icon={html5} 
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%", width: "40px", height: "40px" }}
                   />
+
                   <Icon 
                     icon={css3} 
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%", width: "40px", height: "40px" }}
                   />
+
                 </span>
               </div>
             </div>

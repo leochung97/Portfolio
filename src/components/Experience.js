@@ -21,6 +21,7 @@ class Experience extends Component {
             </Badge>
           );
         });
+
         var tech = technologies.map((technology, i) => {
           return (
             <Badge pill className="experience-badge mr-2 mb-2" key={i}>
@@ -28,16 +29,18 @@ class Experience extends Component {
             </Badge>
           );
         });
+
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={work.years}
+            icon={<i className="fa fa-regular fa-user-tie fa-3x mx-auto experience-icon"></i>}
             iconStyle={{
               background: "#AE944F",
               color: "#fff",
               textAlign: "center",
+              alignItems: "center"
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>

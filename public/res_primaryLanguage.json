@@ -13,12 +13,12 @@
       {
         "title": "LineAlert",
         "startDate": "2022",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Managed the development of LineAlert, a NYC-based subway alert application where users can create live alerts to notify other users of subway hazards, delays, and other activity. Built using MongoDB, Express, React, and Node.js (MERN Stack). Completed within a sprint of five days with a team of software engineering bootcamp students at AppAcademy.",
         "images": [
-          "images/portfolio/linealert/p1.jpg",
-          "images/portfolio/linealert/p2.jpg"
+          "images/portfolio/linealert/p1.png",
+          "images/portfolio/linealert/p2.png"
         ],
-        "url": "",
+        "url": "https://github.com/leochung97/LineAlert",
         "technologies": [
           {
             "class": "devicon-mongodb-plain",
@@ -45,12 +45,12 @@
       {
         "title": "Thiscord",
         "startDate": "2022",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "Thiscord is a fullstack live chatting and messaging application designed to resemble Discord, the popular VoIP and instant messaging social platform. The name is intended to be a reference to JavaScript's 'this' object.",
         "images": [
-          "images/portfolio/thiscord/p1.jpg",
-          "images/portfolio/thiscord/p2.jpg"
+          "images/portfolio/thiscord/p1.png",
+          "images/portfolio/thiscord/p2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/leochung97/Thiscord",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -59,67 +59,83 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-ruby-plain",
+            "name": "Ruby"
+          },
+          {
+            "class": "devicon-rails-plain",
+            "name": "Ruby on Rails"
           }
         ]
       },
       {
         "title": "Typer Drive",
         "startDate": "2022",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "Built with JavaScript and Canvas, Typer Drive is a simple typing-based combat game. The player must type up randomly generated words quickly and accurately to deal damage to endlessly generated enemies.",
         "images": [
-          "images/portfolio/typer_drive/p1.jpg",
-          "images/portfolio/typer_drive/p2.jpg"
+          "images/portfolio/typer_drive/p1.png",
+          "images/portfolio/typer_drive/p2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/leochung97/Typer-Drive",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "AppAcademy",
+        "title": "Fullstack Software Engineering Student",
+        "years": "03/2022 - 07/2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "New York, NY"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "HTML5",
+          "CSS3",
+          "React",
+          "Redux",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Ruby",
+          "Ruby on Rails",
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Express",
+          "Node.js"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "RBC Capital Markets",
+        "title": "Investment Banking Associate",
+        "years": "06/2018 - 12/2021",
         "mainTech": [
-          "Angular 7/8"
+          "New York, NY"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Excel",
+          "PowerPoint",
+          "Word",
+          "Bloomberg Terminal",
+          "S&P Capital IQ",
+          "FactSet",
+          "Presentations",
+          "Management",
+          "Communications",
+          "Financial Modeling"
         ]
       }
     ]
