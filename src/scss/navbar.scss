@@ -1,0 +1,112 @@
+nav {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  background: #494949;
+}
+
+nav.black {
+  background: #343a40;
+}
+
+.navbar-menu > ul {
+  list-style: none;
+  background: transparent;
+  overflow: hidden;
+  color: white;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  transition: 1s;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-menu > ul > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar-menu > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 25px;
+  border: 3 px solid #3c67e3;
+  border-radius: 10px;
+}
+
+.navbar-menu > ul > li > a:hover {
+  animation: pulsate 1s ease-in-out;
+}
+
+.email {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.email::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: 
+    linear-gradient(
+      90deg,
+      #007bff,
+      #6615f2,
+      #6f42c1,
+      #e83e8c,
+      #dc3545,
+      #fd7e14,
+      #ffc107,
+      #007bff,
+    );
+  background-size: 50% 100%;
+  border-radius: inherit
+}
+
+.email:hover {
+  text-decoration: none;
+}
+
+.email:hover::before {
+  animation: animate_border 1s linear infinite;
+}
+
+.email span {
+  display: block;
+  background-color: #494949;
+  padding: 4px 4px;
+  border-radius: 5px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  z-index: 2;
+  font-size: 22px;
+  min-width: 75px;
+}
+
+@keyframes animate_border {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 5px #17a2b8, 0 0 25px #17a2b8;
+  }
+}

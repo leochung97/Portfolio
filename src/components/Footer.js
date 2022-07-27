@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class Footer extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
@@ -18,6 +19,10 @@ class Footer extends Component {
       <footer>
         <div className="col-md-12">
           <div className="social-links">{networks}</div>
+          
+          <a href="mailto: leo.chung97@gmail.com?subject = Portfolio Website Contact&body= Hello Leo," className="email">
+            <span><i class="fa fa-solid fa-envelope"></i></span>
+          </a>
 
           <div className="copyright py-4 text-center">
             <div className="container">
