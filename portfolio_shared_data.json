@@ -1,0 +1,83 @@
+{
+    "basic_info": {
+      "name": "Leo Chung",
+      "titles": [ "New York-Based", "Full Stack Developer", "Photographer", "Hip Hop Dancer", "Computer Gamer", "Ex-Investment Banker" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/leochung97",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/swchung/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "avatar.png"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "80"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Ruby",
+          "class": "devicon-ruby-plain",
+          "level": "75"
+        },
+        {
+          "name": "Ruby on Rails",
+          "class": "devicon-rails-plain",
+          "level": "75"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "65"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "60"
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original",
+          "level": "60"
+        },
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "60"
+        }
+      ]
+    }
+  }

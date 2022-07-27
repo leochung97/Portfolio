@@ -1,0 +1,142 @@
+{
+    "basic_info": {
+      "description_header": "Biography",
+      "description": "My name is Leo Chung - I am a South Korean immigrant raised in Brooklyn, New York that loves technology and software engineering. I previously worked as an investment banker and recently underwent a four-month long fullstack software engineering bootcamp at AppAcademy to transition into software engineering. I love working on the frontend with React, HTML, and CSS and hope to continue doing so in the future!",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "LineAlert",
+        "startDate": "2022",
+        "description": "Managed the development of LineAlert, a NYC-based subway alert application where users can create live alerts to notify other users of subway hazards, delays, and other activity. Built using MongoDB, Express, React, and Node.js (MERN Stack). Completed within a sprint of five days with a team of software engineering bootcamp students at AppAcademy.",
+        "images": [
+          "images/portfolio/linealert/p1.png",
+          "images/portfolio/linealert/p2.png"
+        ],
+        "url": "https://github.com/leochung97/LineAlert",
+        "technologies": [
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Thiscord",
+        "startDate": "2022",
+        "description": "Thiscord is a fullstack live chatting and messaging application designed to resemble Discord, the popular VoIP and instant messaging social platform. The name is intended to be a reference to JavaScript's 'this' object.",
+        "images": [
+          "images/portfolio/thiscord/p1.png",
+          "images/portfolio/thiscord/p2.png"
+        ],
+        "url": "https://github.com/leochung97/Thiscord",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-ruby-plain",
+            "name": "Ruby"
+          },
+          {
+            "class": "devicon-rails-plain",
+            "name": "Ruby on Rails"
+          }
+        ]
+      },
+      {
+        "title": "Typer Drive",
+        "startDate": "2022",
+        "description": "Built with JavaScript and Canvas, Typer Drive is a simple typing-based combat game. The player must type up randomly generated words quickly and accurately to deal damage to endlessly generated enemies.",
+        "images": [
+          "images/portfolio/typer_drive/p1.png",
+          "images/portfolio/typer_drive/p2.png"
+        ],
+        "url": "https://github.com/leochung97/Typer-Drive",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "AppAcademy",
+        "title": "Fullstack Software Engineering Student",
+        "years": "03/2022 - 07/2022",
+        "mainTech": [
+          "New York, NY"
+        ],
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "React",
+          "Redux",
+          "JavaScript",
+          "Ruby",
+          "Ruby on Rails",
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Express",
+          "Node.js"
+        ]
+      },
+      {
+        "company": "RBC Capital Markets",
+        "title": "Investment Banking Associate",
+        "years": "06/2018 - 12/2021",
+        "mainTech": [
+          "New York, NY"
+        ],
+        "technologies": [
+          "Excel",
+          "PowerPoint",
+          "Word",
+          "Bloomberg Terminal",
+          "S&P Capital IQ",
+          "FactSet",
+          "Presentations",
+          "Management",
+          "Communications",
+          "Financial Modeling"
+        ]
+      }
+    ]
+  }
