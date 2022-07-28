@@ -8,9 +8,9 @@ class NavBar extends Component {
         <div className="navbar-menu">
           <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#portfolio">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#resume">Experience</a></li>
           </ul>
         </div>
       </nav>
