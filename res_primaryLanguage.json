@@ -19,6 +19,7 @@
           "images/portfolio/linealert/p2.png"
         ],
         "url": "https://github.com/leochung97/LineAlert",
+        "link": "https://aa-linealert.herokuapp.com/#/",
         "technologies": [
           {
             "class": "devicon-mongodb-plain",
@@ -51,6 +52,7 @@
           "images/portfolio/thiscord/p2.png"
         ],
         "url": "https://github.com/leochung97/Thiscord",
+        "link": "https://thiscord-leo.herokuapp.com/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -79,6 +81,7 @@
           "images/portfolio/typer_drive/p2.png"
         ],
         "url": "https://github.com/leochung97/Typer-Drive",
+        "link": "https://leochung97.github.io/Typer-Drive/",
         "technologies": [
           {
             "class": "devicon-javascript-plain",
