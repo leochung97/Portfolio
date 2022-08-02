@@ -13,6 +13,7 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var link = this.props.data.link;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -74,25 +75,46 @@ class ProjectDetailsModal extends Component {
               animation="scaleOutAnimation"
               className="slider-image"
             >
-              {img}
+              { img }
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
-              {title}
-              {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
-              ) : null}
+              { title }
+              {
+                url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                    title="GitHub"
+                  >
+                    <i
+                      className="fab fa-brands fa-github"
+                      style={{ marginLeft: "10px" }}
+                    ></i>
+                  </a>
+                ) : null
+              }
+
+              {
+                link ? (
+                  <a 
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                    title="Live Link"
+                  >
+                    <i
+                      className="fas fa-external-link-alt"
+                      style={{ marginLeft: "10px" }}
+                    ></i>
+                  </a>
+                ) : null
+              }
+
             </h3>
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
